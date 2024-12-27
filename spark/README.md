@@ -41,3 +41,5 @@ docker exec -it spark-iceberg /opt/spark/bin/spark-submit \
   --conf spark.sql.defaultCatalog=local \
   spark-with-iceberg.py
 ```
+
+Finally, go to [`https://oleander.dev`](https://oleander.dev) to view the OpenLineage events emitted by your Spark job.
