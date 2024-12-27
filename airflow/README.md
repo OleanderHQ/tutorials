@@ -14,6 +14,12 @@ Our team is based in SF, so naturally, we'll be delivering food in the Bay Area.
 Go to [` https://oleander.dev`]( https://oleander.dev), then copy you API key **under** `Settings` > `Account` > `API Key`.
 In the step below, replace `[OLEANDER-API-KEY]` with your API key before running the Spark job.
 
+## `.env`
+
+```
+cp .example.env .env
+```
+
 ## Running the Airflow DAGs
 
 First, start the database for our hypothetical food delivery service:
