@@ -10,7 +10,7 @@ Our team is based in SF, so naturally, we'll be using `demo.sf.waymo`.
 
 ## Oleander API Key
 
-Navigate to [` https://oleander.dev`]( https://oleander.dev), then copy you API key **under** `Settings` > `Account` > `API Key`.
+Go to [` https://oleander.dev`]( https://oleander.dev), then copy you API key **under** `Settings` > `Account` > `API Key`.
 In the step below, replace `[OLEANDER-API-KEY]` with your API key before running the Spark job. 
 
 ## Running the Spark Job
@@ -25,7 +25,7 @@ Then, run:
 
 ```
 docker exec -it spark-iceberg /opt/spark/bin/spark-submit \
-  --conf spark.jars.packages=io.openlineage:openlineage-spark_2.12:1.23.0 \
+  --conf spark.jars.packages=io.openlineage:openlineage-spark_2.12:1.26.0 \
   --conf spark.extraListeners=io.openlineage.spark.agent.OpenLineageSparkListener \
   --conf spark.openlineage.transport.type=http \
   --conf spark.openlineage.transport.url=https://oleander.dev \
