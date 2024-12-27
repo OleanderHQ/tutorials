@@ -1,6 +1,6 @@
 # Tutorials
 
-This repository contains tutorials for [OpenLineage](https://openlineage.io) used by [` https://oleander.dev`]( https://oleander.dev).
+This repository contains tutorials for [OpenLineage](https://openlineage.io) used by [`https://oleander.dev`]( https://oleander.dev).
 
 ## Samples
 
