@@ -11,7 +11,7 @@ Our team is based in SF, so naturally, we'll be delivering food in the Bay Area.
 
 ## Oleander API Key
 
-Go to [` https://oleander.dev`]( https://oleander.dev), then copy you API key **under** `Settings` > `Account` > `API Key`.
+Go to [`https://oleander.dev`](https://oleander.dev), then copy you API key **under** `Settings` > `Account` > `API Key`.
 In the step below, replace `[OLEANDER-API-KEY]` with your API key before running the Spark job.
 
 ## `.env`
@@ -34,4 +34,6 @@ Then, start Airflow:
 astro dev start
 ```
 
-Finally, go to [`http://localhost:8080`](http://localhost:8080).
+Finally, go to:
+* [`http://localhost:8080`](http://localhost:8080) to view your Airflow DAGs.
+* [`https://oleander.dev`](https://oleander.dev) to view the OpenLineage events emitted by your Airflow DAGs.

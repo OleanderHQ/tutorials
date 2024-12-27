@@ -10,7 +10,7 @@ Our team is based in SF, so naturally, we'll be using `demo.sf.waymo`.
 
 ## Oleander API Key
 
-Go to [` https://oleander.dev`]( https://oleander.dev), then copy you API key **under** `Settings` > `Account` > `API Key`.
+Go to [`https://oleander.dev`](https://oleander.dev), then copy you API key **under** `Settings` > `Account` > `API Key`.
 In the step below, replace `[OLEANDER-API-KEY]` with your API key before running the Spark job. 
 
 ## Running the Spark Job
