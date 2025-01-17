@@ -18,7 +18,7 @@ In the step below, replace `[OLEANDER-API-KEY]` with your API key before running
 Next, start up the docker containers with:
 
 ```
-docker-compose up
+docker compose up
 ```
 
 Then, run:
